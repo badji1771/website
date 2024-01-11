@@ -12,7 +12,7 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 
 export const routes: Routes = [
     { title: "ADS | Home", path:'',component:HeaderComponent},
-    { title: "ADS | Home", path:'home',component:HeaderComponent},
+    { title: "ADS | Home", path:'header',component:HeaderComponent},
     { title: "ADS | About", path:'about',component:AboutComponent},
     { title: "ADS | Client", path:'clients',component:ClientsComponent},
     { title: "ADS | Pricing", path:'pricing',component:PricingComponent},
